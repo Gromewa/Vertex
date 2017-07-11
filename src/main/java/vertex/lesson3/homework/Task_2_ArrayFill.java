@@ -11,7 +11,7 @@ public class Task_2_ArrayFill {
         int[] arr = new int[10];
 
         for (int i = 0; i < arr.length ; i++) {
-            System.out.println("Введите число для заполнения массива: ");
+            System.out.println("Введите числа для заполнения массива: ");
             arr[i] = scan.nextInt();
         }
         System.out.println(Arrays.toString(arr));
