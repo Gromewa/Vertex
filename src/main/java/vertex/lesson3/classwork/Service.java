@@ -110,24 +110,24 @@ public class Service {
 //        }
 //    }
 //}
-//        int[] mas = {2, 5, 10, 20};
-//        int[] arr = {3, 7, 8, 15,4};
-//        if (mas.length > arr.length) {
-//            System.out.println("mas bigger then arr");
-//        } else if (mas.length < arr.length) {
-//            System.out.println("mas lower then arr");
-//        }else if (mas.length == arr.length) {
-//            System.out.println("mas ravno arr");
-//        }
-//    }
-        int[] mas = {1,2,33,4};
-        for (int i = 0; i < mas.length; i++) {
-            if (mas[i] == 2 || mas[i] == 3) {
-                mas[i] = 12;
-            }
-            System.out.println(mas[i]);
-            }
+        int[] mas = {2, 5, 10, 20};
+        int[] arr = {3, 7, 8, 15};
+        if (mas.length > arr.length) {
+            System.out.println("mas bigger then arr");
+        } else if (mas.length < arr.length) {
+            System.out.println("mas lower then arr");
+        }else if (mas.length == arr.length) {
+            System.out.println("mas ravno arr");
         }
+    }
+//        int[] mas = {1,2,33,4};
+//        for (int i = 0; i < mas.length; i++) {
+//            if (mas[i] == 2 || mas[i] == 3) {
+//                mas[i] = 12;
+//            }
+//            System.out.println(mas[i]);
+//            }
+//        }
 
 
 
