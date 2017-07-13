@@ -33,19 +33,23 @@ public class Methods {
         }
     }
 
-    private static int count(int a, int b) {
+    private static int count(
+            int a, int b) {
         return a + b;
     }
 
     private static void just() {
+
         System.out.println("Just");
     }
 
-    private static void kill(String text) {
+    private static void kill(String text)
+    {
         System.out.println(text);
     }
 
     private static int loop() {
+
         return 12;
     }
 
